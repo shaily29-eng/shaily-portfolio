@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
   "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
-  "author": "Hanzla Tauqeer",
+  "repository": "https://github.com/shaily29-eng/shaily-portfolio",
+  "author": "Shaily Goyal",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
@@ -19,6 +19,7 @@
     "@apollo/client": "^3.3.21",
     "@iconify/react": "^3.1.3",
     "@next/eslint-plugin-next": "11.1.3-canary.7",
+    "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.0.2",
     "classnames": "^2.3.1",
     "graphql": "^15.5.1",
@@ -48,6 +49,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.6.0",
+    "fsevents": "^2.3.2",
     "prettier": "2.8.4",
     "typescript": "^4.9.5"
   }

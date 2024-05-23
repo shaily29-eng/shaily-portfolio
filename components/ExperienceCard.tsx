@@ -11,15 +11,15 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
           <img
             src={companyLogo}
             style={{
-              objectFit: "cover",
+              
               left: 0,
               right: 0,
-              top: "7rem",
+              top: "10rem",
               marginLeft: "auto",
               marginRight: "auto",
               width: "8rem",
               height: "8rem",
-              borderRadius: "50%",
+              borderRadius: "100%",
             }}
             className="shadow mb-3"
             alt={companyLogo}
@@ -37,6 +37,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
               {descBullets
                 ? descBullets.map(desc => {
                     return <li key={desc}>{desc}</li>;
+                    
                   })
                 : null}
             </ul>
